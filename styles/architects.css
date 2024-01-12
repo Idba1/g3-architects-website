@@ -78,5 +78,28 @@ nav li a {
     line-height: 26px;
 }
 .banner-img img{
+    margin-top: 20px;
     width: 100%;
+}
+
+/* Responsive media query for small device */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+
+/* Responsive media query for medium device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
