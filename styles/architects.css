@@ -180,12 +180,14 @@ nav li a {
     padding: 30px;
     margin-bottom: 20px;
 }
-.features-img img{
+
+.features-img img {
     /* width: 100%; */
     /* width: 708px; */
     height: 90%;
     margin-left: -90px;
 }
+
 .ten-years-badge {
     border-radius: 8px;
     background: #FF900E;
@@ -286,15 +288,17 @@ nav li a {
         flex-direction: column;
     }
 
-    .features-img img{
+    .features-img img {
         width: 100%;
         margin-left: 0;
     }
-    .ten-years-badge{
+
+    .ten-years-badge {
         position: static;
         max-width: 280px;
         margin-top: 20px;
     }
+
     .teams-img {
         grid-template-columns: 1fr;
     }
